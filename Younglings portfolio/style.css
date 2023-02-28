@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+body {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hdden;
+    scroll-behavior: smooth;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #110224;
+}
+
+.vertical nav {
+    position: relative;
+    top: 20%;
+    align-items: center;
+}
+
+nav {
+    position: relative;
+    top: 20%;
+
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #110224;
+  
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+   
+  }
+
+  .name {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-weight: 800px;
+  }
+
+  .icon {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+  .icon1 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+  .icon2 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+  .icon3 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+  .icon4 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+  .icon5 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;
+  }
+
+.icon6 {
+    position: relative;
+    top: 180px;
+    width: 18px;
+    height: 30px;
+    left: -7px;  
+  }
+
+  .icon7 {
+    position: relative;
+    top: 180px;
+    width: 40px;
+    height: 30px;
+    left: 9px;
+  }
+
+  .icon :hover {
+    background-color: rgb(16, 16, 212);
+  }
+
+  .red-square-dot {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 44px;
+    top: -10px;
+  }
+
+  .circle {
+    position: relative;
+    left: 530px;
+    bottom: 160px;
+  }
+
+  .me {
+    position: relative;
+    left: 552px;
+    bottom: 418px;
+  }
+
+  .white {
+    width: 5px;
+    height: 110vh;
+    background-color: white;
+    position: relative;
+    left: 70px;
+    bottom: 1020px;
+  }
+
+  .white2 {
+    width: 6px;
+    height: 1200vh;
+    background-color: #696690 ;
+    position: relative;
+    bottom:2400px;
+    left: 75px;
+  }
+
+
+
+  .name h3 {
+    color: white;
+    position: relative;
+    bottom: 12400px;
+    left: 537px;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .description p {
+    color: rgb(209, 209, 209);
+    position: relative;
+    bottom: 12400px;
+    left: 470px;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .mouse {
+    position: relative;
+    left: 636px;
+    bottom: 12238px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .mouse-text {
+    position: relative;
+    left: 612px;
+    bottom: 12248px;
+    width: 90px;
+    height: 90px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.social-icons {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 562px;
+    bottom: 12408px;
+}
+
+.body-icon {
+    padding: 4px;
+}
+
+#About {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.about-img {
+    width: 275px;
+    height: 300px;
+    position: relative;
+    left: 60px;
+}
+
+.card {
+    width: 57%;
+    height: 27vh;
+    background-color: #e9e8e8;
+    position: relative;
+    left: 400px;
+    bottom: 220px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.text-box {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+
+.btn {
+    position: relative;
+    left:-414px;
+    top: -40px;
+    background-color: #000;
+    height: 40px;
+    width: 150px;
+    border-radius: 30PX;
+}
+
+.download-btn a {
+    text-decoration: none;
+    color: #e9e8e8;
+    font-size: smaller;
+}
+
+.wrapper {
+    width: 250px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin:0 auto;
+    position: relative;
+    left: 200px;
+    bottom: 115px;
+    }
+    
+    .skill {
+        margin-bottom: 10px;
+        position: relative;
+        overflow-x:hidden;
+        border-radius: 5px;
+    }
+    
+    .skill > p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #1a1716;
+        margin: 0;
+    }
+    
+    .skill:before {
+        width: 100%;
+        height: 10px;
+        content: "";
+        display: block;
+        position: absolute;
+        background: #959595;
+        bottom: 0;
+        border-radius: 5px;
+    }
+    
+    .skill-bar {
+        width: 100%;
+        height: 10px;
+        background:#58fff5;
+        display: block;
+        position: relative;
+        border-radius: 5px;
+    }
+    
+    .skill-bar span {
+        position: absolute;
+        border-top: 5px solid #58fff5;
+        top: -30px;
+        padding: 0;
+        font-size: 15px;
+        padding: 3px 0;
+        font-weight: 500;
+    }
+    
+    .skill-bar {
+    position: relative;
+    }
+    
+    .skill1 .skill-count1 {
+    right: -53%;
+    }
+    
+    .skill1 {
+    width: 64%;
+    }
+    
+    .skill2 {
+    width: 70%;
+    }
+    
+    .skill2 .skill-count2 {
+    right: -40%;
+    }
+    
+    .skill3{
+    width: 40%;
+    }
+    
+    .skill3 .skill-count3 {
+    right: -144%;
+    }
+
+    .skill4{
+        width: 83%;
+        }
+        
+    .skill4 .skill-count4 {
+        right: -18%;
+        }
+    
+    .skill5{
+        width: 54%;
+        }
+            
+    .skill5 .skill-count5 {
+            right: -82%;
+        }    
+        
+    
+.achievement-block {
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    right: 280px;
+    width: 1400px;
+}
+
+#about-section-icons {
+    padding: 60px;
+}
+
+.icon-text {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 90px;
+
+}
+
+.five {
+    font-size: x-large;
+    font-weight: 900px;
+}
+
+.icon-text span {
+    font-size: medium;
+    font-weight: 400;
+}
+
+#Services {
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #d7d4ff;
+}
+
+.card-columns {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  right: 80px; 
+}
+
+.services-img {
+    position: relative;
+    left: 55px;
+}
+
+.card-one {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: -50px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.card-two {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: 0px;
+    border-radius: 20px;
+}
+
+.card-three {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+}
+
+.card-four {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: -20px;
+    border-radius: 20px;
+}
+
+.card-five {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: 30px;
+    border-radius: 20px;
+}
+
+.card-six {
+    width: 291px;
+    height: 200px;
+    background-color: #110224;
+    position: relative;
+    left: 80px;
+    border-radius: 20px;
+}
+
+.row-one {
+    display: flex;
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    width: 1000px;
+}
+
+.row-two {
+    display: flex;
+    padding: 20px;
+    position: relative;
+    left: 220px;
+    top: 50px;
+}
